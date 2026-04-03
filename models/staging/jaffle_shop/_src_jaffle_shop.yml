@@ -14,7 +14,20 @@ sources:
 
     tables:
       - name: shop_customers
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
+              
       - name: shop_orders
+        columns:
+          - name: id
+            data_tests:
+            - unique
+            - not_null
+            
+             
         
         
         
